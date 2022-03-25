@@ -247,3 +247,47 @@ nav ul li{
     margin-right: 2em;
   }
 }
+
+/*****************************
+       COLOR SCHEME
+*****************************/
+/* creating color scheme light */
+@media (prefers-color-scheme: light) {
+  /* Styles */
+  body{
+    background-color: #E0FF8D;
+  }
+
+  nav a,
+  nav a:link,
+  nav a:visited {
+  background-color: #968DFF;
+  color: rgb(255, 255, 255);
+  }
+
+  nav a:hover,
+  nav a:focus {
+    background-color: #646464;
+  }
+}
+
+/* creating color scheme dark */
+@media (prefers-color-scheme: dark) {
+  /* Styles */
+  body {
+    background-color: #646464;
+  }
+
+  nav a,
+  nav a:link,
+  nav a:visited {
+    background-color: #E0FF8D;
+    color: #222;
+  }
+
+  nav a:hover,
+  nav a:focus {
+    background-color: #968DFF;
+    color: white;
+  }
+  }
